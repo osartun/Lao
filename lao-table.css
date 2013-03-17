@@ -1,0 +1,30 @@
+.lao-table-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.lao-table-row {
+	display: table-row;
+}
+.lao-table-col {
+	display: table-cell;
+}
+
+.lao-table-fixed-size {
+	/* This is a div inside a cell */
+	width: inherit;
+	height: inherit;
+}
+.lao-table-overflow-scroll {
+	overflow: scroll;
+}
+.lao-table-overflow-hidden {
+	overflow: hidden;
+}
+.lao-table-overflow-auto {
+	overflow: auto;
+}
+.lao-table-overflow-inherit {
+	overflow: inherit;
+}
