@@ -13,7 +13,6 @@
 		}))
 
 	var toJSON = function () {
-		console.log("hier")
 		var o = _.clone(this.attributes), i;
 		for (i in o) {
 			console.log(o[i].toJSON)
